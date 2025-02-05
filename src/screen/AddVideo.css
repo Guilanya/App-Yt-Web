@@ -1,0 +1,48 @@
+.add-video-container {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.add-video-container .back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.add-video-container .back-arrow:hover {
+  color: #007bff;
+}
+
+.add-video-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-video-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-video-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-video-container button:hover {
+  background-color: #0056b3;
+}
